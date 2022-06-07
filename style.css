@@ -327,3 +327,24 @@ footer {
   font-weight: normal;
   font-family: initial;
 }
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+/* DEFAULTS:
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+
+aside {
+  flex: 1;
+}
+
+article {
+  flex: 0 0 825px;
+  margin-bottom: 0;
+}
