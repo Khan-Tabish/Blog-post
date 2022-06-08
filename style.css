@@ -98,14 +98,15 @@ ul,
 ol {
   margin-left: 50px;
   margin-bottom: 20px;
+}
 
-  li {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  li:last-child {
-    margin-bottom: 0;
-  }
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 #author {
